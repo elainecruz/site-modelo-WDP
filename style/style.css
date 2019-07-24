@@ -18,6 +18,14 @@ html, body {
     margin: 0;
 }
  
+.roud-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%
+    
+}
 /* CONTENT 
 .content {
     background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
@@ -25,51 +33,171 @@ html, body {
 */
 
 /* MENU */
+.menu {
+    background: #2F4076;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     width: 90px;
 }
 .navbar-items a{
     color: #54D1BB;
+    text-decoration: none;
 }
+
+.navbar-items a:hover{
+    color: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    
+}
+.navbar-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item{
+    margin: 50px;
+}
+
 
 /*INTRO*/
 
-.menu {
-    background: #2F4076;
-    flex-direction: row;
-}
-.navbar-items{
-    margin:0;
-    list-style-type: none;
-    flex-direction: row;
-}
 .main-title{
     margin: 0;
+    color: #FFFFFF;
+    font-size: 56px;
 }
 .banner {
     background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.description {
-    margin: 0;
+.column-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    color:#FFFFFF;
+    font-size: 20px;
+    padding: 30px 100px 50px  100px;
+    text-align: center;
+}
+
+.row-intro{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* PROJECTS */
 
+.title-2{
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    padding: 56px;
+}
 .projects {
     background: rgba(229, 229, 229, 0.71);
+    padding: 50px 200px
 }
 .title-2{
     margin:0;
+}
+
+.card{
+    width: 260px ;
+    height: 300px;
+    margin: 3%;
+    padding: 3%;
+    background: #FFFFFF;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    font-size: 10px;
+    
+}
+
+.card-pic{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 30px;
+   
 }
 .row-projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-around;
 }
 
+.card-description{
+    text-align: justify;
+    font-size: 12px;
+}
 
-/* CONTATO */
+/* LET'S TALK */
+
+.title-3{
+    margin:0;
+    color: #FFFFFF;
+}
+
 .contact {
+    width: 90%;
+    height: 100%;
+    padding: 5%;
     background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact a{
+    color: #FFFFFF;
+}
+
+/* RODAPÉ */
+.footer{
+    background: rgba(62, 59, 59, 0.88);
+    padding: 2% 3%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.icone{
+    margin-left: 100px;
+    width: 50%;
+    height: 50%;
 }
