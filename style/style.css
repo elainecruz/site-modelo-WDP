@@ -18,6 +18,7 @@ html, body {
     margin: 0;
 }
  
+
 .roud-img{
     width: 200px;
     height: 200px;
@@ -34,6 +35,10 @@ html, body {
 
 /* MENU */
 .menu {
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
     background: #2F4076;
     padding: 20px 40px;
     display: flex;
@@ -76,7 +81,7 @@ html, body {
     font-size: 56px;
 }
 .banner {
-    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+    background: #2F4076;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -102,6 +107,7 @@ html, body {
 }
 
 .row-intro{
+    margin-top:10%;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -185,11 +191,11 @@ html, body {
 
 /* RODAPÉ */
 .footer{
-    width: 100%;
     height: 30px;
     background: rgba(62, 59, 59, 0.88);
     padding: 2% 3%;
     display: flex;
+    justify-content: center;
     
 }
 
